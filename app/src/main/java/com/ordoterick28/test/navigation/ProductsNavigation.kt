@@ -16,7 +16,7 @@ fun ProductsNavigation(
     navController: NavHostController,
 ) {
     val sharedViewModel: SharedViewModel = viewModel()
-    
+
     NavHost(
         navController = navController,
         startDestination = Screen.Products.route
